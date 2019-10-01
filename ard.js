@@ -921,33 +921,33 @@
       ['r', 'convertir %n de %n %n a %n %n', 'mapValues', 50, 0, 100, -240, 240]
     ],
     zh: [
-      ['h', '當裝置連接時', 'whenConnected'],
-      [' ', '連接 %m.hwOut 到腳位 %n', 'connectHW', '發光二極體 A', 3],
-      [' ', '連接 %m.hwIn 到類比 %n', 'connectHW', '旋鈕', 0],
+      ['h', '当装置连接时', 'whenConnected'],
+      [' ', '连接 %m.hwOut 到针脚 %n', 'connectHW', 'LED A', 3],
+      [' ', '连接 %m.hwIn 到类比 %n', 'connectHW', '旋钮', 0],
       ['-'],
-      [' ', '設定 %m.leds %m.outputs', 'digitalLED', '發光二極體 A', 'on'],
-      [' ', '設定 %m.leds 亮度為 %n%', 'setLED', '發光二極體 A', 100],
-      [' ', '改變 %m.leds 亮度 %n%', 'changeLED', '發光二極體 A', 20],
+      [' ', '设定 %m.leds %m.outputs', 'digitalLED', 'LED A', 'on'],
+      [' ', '设定 %m.leds 亮度为 %n%', 'setLED', 'LED A', 100],
+      [' ', '改变 %m.leds 亮度 %n%', 'changeLED', 'LED A', 20],
       ['-'],
-      [' ', '旋轉 %m.servos 到 %n 度', 'rotateServo', '伺服馬達 A', 180],
-      [' ', '旋轉 %m.servos %n 度', 'changeServo', '伺服馬達 A', 20],
+      [' ', '旋转 %m.servos 到 %n 度', 'rotateServo', '伺服马达 A', 180],
+      [' ', '旋转 %m.servos %n 度', 'changeServo', '伺服马达 A', 20],
       ['-'],
-      ['h', '當 %m.buttons 為 %m.btnStates', 'whenButton', '按鈕 A', '按下'],
-      ['b', '%m.buttons 按下?', 'isButtonPressed', '按鈕 A'],
+      ['h', '当 %m.buttons 为 %m.btnStates', 'whenButton', '按钮 A', '按下'],
+      ['b', '%m.buttons 按下?', 'isButtonPressed', '按钮 A'],
       ['-'],
-      ['h', '當 %m.hwIn %m.ops %n%', 'whenInput', '旋鈕', '>', 50],
-      ['r', '讀取 %m.hwIn', 'readInput', '旋鈕'],
+      ['h', '当 %m.hwIn %m.ops %n%', 'whenInput', '旋钮', '>', 50],
+      ['r', '读取 %m.hwIn', 'readInput', '旋钮'],
       ['-'],
-      [' ', '設定腳位 %n %m.outputs', 'digitalWrite', 1, '開'],
-      [' ', '設定腳位 %n 為 %n%', 'analogWrite', 3, 100],
+      [' ', '设定针脚 %n %m.outputs', 'digitalWrite', 1, '开'],
+      [' ', '设定针脚 %n 为 %n%', 'analogWrite', 3, 100],
       ['-'],
-      ['h', '當腳位 %n 為 %m.outputs', 'whenDigitalRead', 1, '開'],
-      ['b', '腳位 %n 開?', 'digitalRead', 1],
+      ['h', '当针脚 %n 为 %m.outputs', 'whenDigitalRead', 1, '开'],
+      ['b', '针脚 %n 开?', 'digitalRead', 1],
       ['-'],
-      ['h', '當類比 %n %m.ops %n%', 'whenAnalogRead', 1, '>', 50],
-      ['r', '讀取類比 %n', 'analogRead', 0],
+      ['h', '当类比 %n %m.ops %n%', 'whenAnalogRead', 1, '>', 50],
+      ['r', '读取类比 %n', 'analogRead', 0],
       ['-'],
-      ['r', '對應 %n 由 %n %n 為 %n %n', 'mapValues', 50, 0, 100, -240, 240]
+      ['r', '对应 %n 由 %n %n 为 %n %n', 'mapValues', 50, 0, 100, -240, 240]
     ]
   };
 
@@ -1083,14 +1083,14 @@
       servos: ['servo A', 'servo B', 'servo C', 'servo D']
     },
     zh: {
-      buttons: ['按鈕 A', '按鈕 B', '按鈕 C', '按鈕 D'],
-      btnStates: ['按下', '放開'],
-      hwIn: ['旋鈕', '光感應器', '溫度感應器'],
-      hwOut: ['發光二極體 A', '發光二極體 B', '發光二極體 C', '發光二極體 D', '按鈕 A', '按鈕 B', '按鈕 C', '按鈕 D', '伺服馬達 A', '伺服馬達 B', '伺服馬達 C', '伺服馬達 D'],
+      buttons: ['按钮 A', '按钮 B', '按钮 C', '按钮 D'],
+      btnStates: ['按下', '放开'],
+      hwIn: ['旋钮', '光传感器', '温度传感器'],
+      hwOut: ['LED A', 'LED A B', 'LED A C', 'LED A D', '按钮 A', '按钮 B', '按钮 C', '按钮 D', '伺服马达 A', '伺服马达 B', '伺服马达 C', '伺服马达 D'],
       leds: ['發光二極體 A', '發光二極體 B', '發光二極體 C', '發光二極體 D'],
-      outputs: ['開', '關'],
+      outputs: ['开', '关'],
       ops: ['>', '=', '<'],
-      servos: ['伺服馬達 A', '伺服馬達 B', '伺服馬達 C', '伺服馬達 D']
+      servos: ['伺服马达 A', '伺服马达 B', '伺服马达 C', '伺服马达 D']
     }
   };
 
