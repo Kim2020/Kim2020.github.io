@@ -319,7 +319,7 @@
     ['r', '倾斜方向 %m.tiltDir', 'getTilt', 'up'],
     ['-'],
     [' ', '设置针脚 %d.digitalOutputs 伺服马达 to %n 度', 'rotateServo', 7, 90],
-    ['r', '针脚 %d.digitalOutputs 伺服马达的角度', 'servoPosition', 7]
+    ['r', '针脚 %d.digitalOutputs 伺服马达角度', 'servoPosition', 7]
   ];
 
   var menus = {
