@@ -292,7 +292,7 @@
 
     var descriptor = {
         blocks : [
-            [ 'R', 'ʶ�� %s (label)', 'image_classification_label', 'image' ],
+            [ 'R', '识别图像 %s (label)', 'image_classification_label', 'image' ],
             [ 'R', 'recognise image %s (confidence)', 'image_classification_confidence', 'image' ],
             [ 'r', 'kehuishouwu', 'return_label_0'],
             [ 'r', 'qitalaji', 'return_label_1'],
