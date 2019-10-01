@@ -306,7 +306,7 @@
     };
 
     // Register the extension
-    ScratchExtensions.register('LaJiFenLei', descriptor, ext);
+    ScratchExtensions.register('垃圾分类', descriptor, ext);
 
 
     // keep a record of BAD_REQUEST requests so that we don't submit them
