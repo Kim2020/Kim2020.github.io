@@ -293,7 +293,7 @@
     var descriptor = {
         blocks : [
             [ 'R', '识别图像 %s (标签)', 'image_classification_label', '图像' ],
-            [ 'R', '识别图像 %s (可能性)', 'image_classification_confidence', '图像' ],
+            [ 'R', '识别图像 %s (可信度)', 'image_classification_confidence', '图像' ],
             [ 'r', '可回收物', 'return_label_0'],
             [ 'r', '其他垃圾', 'return_label_1'],
             [ 'r', '有害垃圾', 'return_label_2'],
