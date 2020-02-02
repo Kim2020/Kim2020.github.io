@@ -297,7 +297,7 @@
             [ 'r', '有害垃圾', 'return_label_0'],
             [ 'r', '其他垃圾', 'return_label_1'],
             [ 'r', '可回收物', 'return_label_2'],
-            [ 'r', '有害垃圾', 'return_label_3'],
+            [ 'r', '厨余垃圾', 'return_label_3'],
             [ 'w', '添加图像样本 %s 到 %s', 'image_store', '图像', '标签']
         ],
         menus : {
