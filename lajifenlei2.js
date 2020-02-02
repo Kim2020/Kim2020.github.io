@@ -295,7 +295,7 @@
             [ 'R', '识别图像 %s (标签)', 'image_classification_label', '图像' ],
             [ 'R', '识别图像 %s (可信度)', 'image_classification_confidence', '图像' ],
             [ 'r', '有害垃圾', 'return_label_0'],
-            [ 'r', '其他垃圾', 'return_label_1'],
+            [ 'r', '其它垃圾', 'return_label_1'],
             [ 'r', '可回收物', 'return_label_2'],
             [ 'r', '厨余垃圾', 'return_label_3'],
             [ 'w', '添加图像样本 %s 到 %s', 'image_store', '图像', '标签']
